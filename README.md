@@ -44,7 +44,10 @@ npm run dev -- --port 5180
 ```bash
 NODE_ENV=development npm run electron:dev
 ```
-
+NOTE : if you get error as The term 'NODE_ENV=development' is not recognized run this in your root folder
+```bash
+ npx cross-env NODE_ENV=development npm run electron:dev
+```
 #### Method 2: Production Mode
 ```bash
 npm run build
